@@ -1,0 +1,27 @@
+$primaryColor: red;
+$secondaryColor: green;
+$bgColor: rgb(210, 252, 227);
+
+html {
+  font-family: generalFont;
+}
+
+h1 {
+  color: $primaryColor;
+}
+
+h2 {
+  color: $secondaryColor;
+}
+
+.container {
+  width: 500px;
+  box-sizing: border-box;
+  padding: 25px;
+  &__sub {
+    background-color: $bgColor;
+
+    height: 140px;
+    background-image: url(../images/форма.jpg);
+  }
+}

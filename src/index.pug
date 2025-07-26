@@ -1,0 +1,14 @@
+//- include pug/libs/_libs
+
+doctype html
+html (lang="en")
+include pug/_head 
+
+body
+  .container
+    h1 Привет, Webpack!
+    h2.container__sub Это подзаголовок!
+  //- img(src='src/images/bull.jpg' alt='name')
+img(src=require('./img/bill.jpg') alt="Bill")
+    //- +image('bulllit')
+    //- +image('форма')
